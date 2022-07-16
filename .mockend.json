@@ -11,6 +11,7 @@
     "availableMargin": {"int": { "min": 0, "max": 5000 }},
     "dueDate": {"dateTime": {"min": "2020-01-01T00:00:00Z", "max": "2020-12-31T23:59:59Z"}},
     "dataValid": {"string": {}},
-    "delayDays": {"int": { "min": 0, "max": 100 }}
+    "delayDays": {"int": { "min": 0, "max": 100 }},
+    "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" }
   }
 }
