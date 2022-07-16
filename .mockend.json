@@ -1,0 +1,18 @@
+{
+  "Client": {
+    "name": {"string": {}},
+    "inclusionDate": {"dateTime": {}},
+    "cpf": {"string": {}},
+    "rg": {"string": {}},
+    "birthDate": {"string": {}},
+    "motherName": {"string": {}},
+    "phone": {"string": {}},
+    "email": {"string": {}},
+    "status": {"string": ["Disponível", "Aprovado", "Reprovado"]},
+    "totalMargin": {"string": {}},
+    "availableMargin": {"string": {}},
+    "dueDate": {"dateTime": {}},
+    "dataValid": {"string": {}},
+    "delayDays ": {"number": {}}
+  }
+}
