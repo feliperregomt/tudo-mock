@@ -30,7 +30,7 @@
       "Renata Martines",
       "Paulina Gomes",
       "Bianca Reis",
-      "Michele Solano",
+      "Michele Solano"
     ]},
     "inclusionDate": {"dateTime": {"min": "2010-01-01T00:00:00Z", "max": "2020-12-31T23:59:59Z"}},
     "cpf": {"regexp": "[0-9]{3}\\.[0-9]{3}\\.[0-9]{3}\\-[0-9]{2}"},
