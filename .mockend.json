@@ -6,7 +6,7 @@
     "rg": {"string": {}},
     "birthDate": {"string": {}},
     "motherName": {"string": {}},
-    "phone": {"regexp": "\(?\d{2,}\)?[ -]?\d{4,}[\-\s]?\d{4}"},
+    "phone": {"regexp": "\\(?\\d{2,}\\)?[ -]?\\d{4,}[\\-\\s]?\\d{4}"},
     "email": {"regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"},
     "status": {"string": ["Disponível", "Aprovado", "Reprovado"]},
     "totalMargin": {"int": { "min": 0, "max": 5000 }},
