@@ -1,7 +1,7 @@
 {
   "Client": {
     "name": {"string": {}},
-    "inclusionDate": {"dateTime": {"min": "2010-01-01T00:00:00Z", "max": "2022-06-31T23:59:59Z"}},
+    "inclusionDate": {"dateTime": {"min": "2010-01-01T00:00:00Z", "max": "2020-12-31T23:59:59Z"}},
     "cpf": {"string": {}},
     "rg": {"string": {}},
     "birthDate": {"string": {}},
@@ -11,8 +11,8 @@
     "status": {"string": ["Disponível", "Aprovado", "Reprovado"]},
     "totalMargin": {"string": {}},
     "availableMargin": {"string": {}},
-    "dueDate": {"dateTime": {"min": "2020-01-01T00:00:00Z", "max": "2023-06-31T23:59:59Z"}},
+    "dueDate": {"dateTime": {"min": "2020-01-01T00:00:00Z", "max": "2020-12-31T23:59:59Z"}},
     "dataValid": {"string": {}},
-    "delayDays ": {"number": {}}
+    "delayDays ": {"int": {}}
   }
 }
